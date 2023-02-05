@@ -12,3 +12,13 @@ for i in range(len(a)):
         a[i],a[j] = a[j],a[i]
         j = j + 1
 print(a)
+
+n =[]
+p = []
+for i in range(len(a)):
+    if (a[i]>0):
+        n.append(a[i])
+    else:
+        p.append(a[i])
+a[:] = n+p
+print(a[:])
