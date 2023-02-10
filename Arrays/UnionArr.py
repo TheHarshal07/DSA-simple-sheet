@@ -13,10 +13,10 @@ for i in range(len(a)):
 
 for i in range(len(b)):
     hashmap[b[i]] = i
-    print(hashmap[b[i]])
+    # print(hashmap[b[i]])
 
 print("Union of the two arrays is :")
-print(hashmap)
+# print(len(hashmap))
 for key in hashmap.keys():
     print(key,end="")
 print("\n")
