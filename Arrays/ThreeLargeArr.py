@@ -1,7 +1,7 @@
 # To find three largest number in the arrays..
 # Time complexity will be O(n) and space will be O(1)
 import sys
-l = [2,23,12,10,34,50]
+l = [14965,2500,1228,3200,2800]
 
 first = second = third = -sys.maxsize
 

@@ -21,12 +21,12 @@ print(a)
 
 
 
-a1 = [0,2,1,2,0]
+a1 = [2,4,3,1,9]
 
 # Here will used swapping
 # Time complexity is O(n2)
 for i in range(len(a1)):
     for j in range(i+1,len(a1)):
-        if a1[i] < a1[j]:
+        if a1[i] > a1[j]:
             a1[i],a1[j] = a1[j],a1[i]
 print(a1)
