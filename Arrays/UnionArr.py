@@ -1,11 +1,13 @@
-a = [1,2,4,6,8,9]
-b = [2,4,8,7]
+a = [1,2,3,4,6]
+b = [6,7,5]
 
 hashmap = {}
 
 for i in range(len(a)):
-    hashmap[a[i]] = i
-    # print(hashmap)
+    hashmap[a[i]] = i   #here i will represent on which position I got that element for e.g 1:0,2:1 
+    print(hashmap)
+
+print(" ")
 
 for i in range(len(b)):
     hashmap[b[i]] = i
@@ -27,3 +29,6 @@ print("Intersection is :")
 for i in range(len(b)):
     if b[i] in hs:
         print(b[i],end="")
+
+
+

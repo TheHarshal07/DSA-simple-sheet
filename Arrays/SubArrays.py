@@ -1,6 +1,7 @@
 # Here we need to find the subarrays from the given array
 
-a = [1,-2,5,-3,6,-8,6]
+# a = [1,-2,5,-3,6,-8,6]
+a = [6,-3,-10,0,2]
 
 sum = 0
 max = a[0]
@@ -16,3 +17,23 @@ for i in range(len(a)):
 for key in hashmap.keys():
     print(key,end=" ")
 
+
+
+
+# def longestConsecutive(nums):
+#     longest = 0
+
+#     for x in nums:
+#         currNum = x
+#         currStreak = 1
+#         while (currNum+1) in nums:
+#             currNum += 1
+#             currStreak += 1
+#         longest = max(currStreak, longest)
+#     return longest
+
+# n = 5
+# nums = [3, 4, 6, 7, 8]
+
+# ans = longestConsecutive(nums)
+# print("Length of longest consecutive subsequence in nums =", ans)
