@@ -1,9 +1,4 @@
 def nextPermutation( nums):
-        
-        """
-        :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
-        """
         n = len(nums)
         if n <= 2:
             return nums.reverse()
@@ -26,6 +21,6 @@ def nextPermutation( nums):
             a = a*10 + nums[k]
         print(a)
 
-ar = "132465"
+ar = "2243921"
 ar= list(map(int,ar))
 nextPermutation(ar)
