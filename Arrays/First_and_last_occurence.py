@@ -40,5 +40,20 @@ def occurence(arr,x):
 h = [1,2,3,4,5,5,5,6]
 n = 5
 print(occurence(h,n))
-        
+
+start = -1
+end = -1
+for i in range(len(h)-1):
+    if h[i] == n:
+        start = i
+        break
+for j in range(i,len(h)-1):
+    if h[j]==n:
+        end = j
+print(i,j)       
                
+a = "pen"
+t = "cil"
+
+ans = "".join(a+t)
+print(ans)

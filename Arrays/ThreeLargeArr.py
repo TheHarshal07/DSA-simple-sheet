@@ -3,7 +3,7 @@
 import sys
 l = [14965,2500,1228,3200,2800]
 
-first = second = third = 1228
+first = second = third = -sys.maxsize-1
 
 
 for i in range(len(l)):

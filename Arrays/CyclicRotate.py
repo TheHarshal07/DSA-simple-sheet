@@ -14,7 +14,7 @@ print(arr)
 # k = 2 and arr = [1,2,3,4,5]
 # output - arr = [4,5,1,2,3]
 arr1 = [1,2,3,4,5]
-k = 2
+k = 3
 n = len(arr1)
 
 for i in range(k):

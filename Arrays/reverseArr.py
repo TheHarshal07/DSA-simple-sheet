@@ -9,15 +9,29 @@ while b<j:
     b += 1
     j -= 1
 
-print(a)
+# print(a)
+
 
 
 # Reverse the array contain string
-
 a = "Harshal"
-n = len(a)-1
 
+# Sapce complexity is O(n)
+n = len(a)-1
 result = ""
 for i in range(n,-1,-1):
     result += a[i]
 print(result)
+
+
+# Sapce complexity is O(1)
+a = list(a)
+start = 0
+end = len(a)-1
+while start <= end:
+    a[start],a[end] = a[end],a[start]
+    start += 1
+    end -= 1
+a = "".join(a)
+print(a)
+
