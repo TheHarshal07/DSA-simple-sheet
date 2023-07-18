@@ -12,3 +12,5 @@ for i in a:
     hashmap[i] = 1
    
 print(rep)
+
+
