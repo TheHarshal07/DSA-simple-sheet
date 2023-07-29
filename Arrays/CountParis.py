@@ -1,5 +1,5 @@
 # Here time complexity is O(n)
-a = [1,5,1,7,1]
+a = [1,5,1,4,2,1]
 t = 6
 
 s = set()

@@ -14,7 +14,7 @@ for i in range(len(t)):
 
 # 2 - Bettter solution
 # We can make use of Hashmap
-# Space complexity = O(2n)
+# Space complexity = O(n)  bcz we're using hashmap yo store the elements
 e = [2,3,4,2,1,1]
 hashmap = {}
 s = set()
@@ -33,7 +33,7 @@ print(s)
 
 # 3 - Optimal Solution
 # Time complexity = O(n)
-# Sapce complexity = O(n)
+# Sapce complexity = O(1)
 
 def FindDuplicates(a):
     n = len(a)

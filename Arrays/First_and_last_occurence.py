@@ -52,8 +52,3 @@ for j in range(i,len(h)-1):
         end = j
 print(i,j)       
                
-a = "pen"
-t = "cil"
-
-ans = "".join(a+t)
-print(ans)
