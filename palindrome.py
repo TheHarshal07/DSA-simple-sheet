@@ -12,3 +12,9 @@ if p == result:
     print("It is palindrome number ",p)
 else:
     print("It is not palidrome number ",p)
+
+
+s = ["H","A","R","S","H","A","L"]
+print("".join(s))
+print(s)
+print(*s)

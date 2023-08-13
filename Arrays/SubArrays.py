@@ -41,4 +41,23 @@ for key in hashmap.keys():
 # print("Length of longest consecutive subsequence in nums =", ans)
 
 #Here we will find the subarrays from given array
+print("Hello")
+import sys
+h = [1,-2,-1,4,6]
+max = -sys.maxsize-1
+sum=0
+start = 0
+end = 0
+for i in range(len(h)):
+    sum += h[i]
 
+    if sum > max:
+        max = sum
+        end = i
+    
+    if sum <0:
+        sum =0
+        start = i+1
+
+print(h[start:end+1])
+    
