@@ -9,7 +9,7 @@ for element in a:
     if comp in s:
         count += 1
     s.add(element)
-print(count)
+print(s)
 
 
 

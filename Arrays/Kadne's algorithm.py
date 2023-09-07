@@ -12,7 +12,7 @@ def subarray(arr):
             sum = 0
     return max
 
-ar = [-1,2,3,-1,4]
+ar = [3,4,-1,-2,3]
 print(subarray(ar))
 
 
@@ -35,5 +35,5 @@ def subarray(arr):
     max_subarray = arr[start_index:end_index + 1]       
     return max_subarray
 
-ar = [-1,2,3,-1,4]
+ar = [3,4,-1,-2,3]
 print(subarray(ar))

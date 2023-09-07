@@ -14,7 +14,8 @@ for i in range(N):
         if a[i]==a[j]:
             count += 1
 if (count>N/2):
-    print(a[i])
+    # print(a[i])
+    pass
     
 
 
@@ -25,6 +26,7 @@ hashmap = {}
 N = len(a)
 for i in range(len(a)):
     hashmap[a[i]] = i
+    print(hashmap)
 for key in hashmap.values():
     if key > (N//2):
         print(a[i])

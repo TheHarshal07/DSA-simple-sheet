@@ -7,7 +7,8 @@ t = [2,3,4,2,1,1]
 for i in range(len(t)):
     for j in range(i+1,len(t)):
         if t[i] == t[j]:
-            print(t[i])
+            # print(t[i])
+            pass
             
 
             
@@ -25,7 +26,7 @@ for i in e:
     else:
         hashmap[i] = 1
         
-print(s)
+# print(s)
 
 
 
@@ -40,9 +41,11 @@ def FindDuplicates(a):
     s = []
     for i in range(n):
         index = a[i]%n
+        # print(index)
         a[index] += n
+        print(a[index])
 
-    for i in range(n):
+    for i in range(n):  
         if a[i]/n >= 2:
             s.append(i)
     return s

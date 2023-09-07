@@ -41,7 +41,7 @@ for key in hashmap.keys():
 # print("Length of longest consecutive subsequence in nums =", ans)
 
 #Here we will find the subarrays from given array
-print("Hello")
+
 import sys
 h = [1,-2,-1,4,6]
 max = -sys.maxsize-1

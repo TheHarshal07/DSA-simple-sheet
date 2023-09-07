@@ -3,18 +3,18 @@
 
 arr = [1,2,3,4,5]
 n = len(arr)
-temp = arr[0]
+temp = arr[n-1]
 for i in range(n-1,0,-1):
     arr[i] = arr[i-1]
 arr[0] = temp
-print(arr)
+print(arr)  
 
 # But if you we want to rotate the element by kth position
 # for e.g 
 # k = 2 and arr = [1,2,3,4,5]
 # output - arr = [4,5,1,2,3]
 arr1 = [1,2,3,4,5]
-k = 3
+k = 2
 n = len(arr1)
 
 for i in range(k):

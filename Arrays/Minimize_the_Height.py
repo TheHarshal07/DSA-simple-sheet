@@ -3,8 +3,8 @@
 # have to minimize the maximum difference between the height
 # But we have on constraint is k either we have to increment or decrement the height of tower by k
 ''' for example: [ 3, 9, 12, 16 ,20]  
-for min ==> if I increase 3 and so dinfinetly I have to increase the 9 so that I can get min difference
-for max ==> if I decrease the 20 so definitely I have to increase the 16 so that I'll get min difference
+for min ==> if I increase 3 by k and so dinfinetly I have to decrease the 9 by k so that I can get min difference
+for max ==> if I decrease the 20 by k so definitely I have to increase the 16 by k so that I'll get min difference
 
 '''
 def TowerHeight(arr,n,k):

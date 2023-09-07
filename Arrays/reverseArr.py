@@ -9,7 +9,7 @@ while b<j:
     b += 1
     j -= 1
 
-# print(a)
+print(a)
 
 
 

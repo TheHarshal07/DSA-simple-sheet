@@ -11,7 +11,11 @@ for i in range(len(a)):
     if (a[i]<0):
         a[i],a[j] = a[j],a[i]
         j = j + 1
+        
 print(a)
+
+
+
 
 n =[]
 p = []
