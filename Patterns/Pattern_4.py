@@ -5,7 +5,6 @@ Print the pattern like:
 333
 4444
 
-
 '''
 
 def NumberPattern(n):
@@ -13,7 +12,6 @@ def NumberPattern(n):
         for j in range(i):
             print(i,end="")
         print("\r")
-
 
 def ReverseNumberPattern(n):
     for i in range(n,-1,-1):

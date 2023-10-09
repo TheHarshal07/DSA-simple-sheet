@@ -3,21 +3,28 @@
 # arr = [2,4,7,9,3] ==> One mothode is to sort the arrays and just return arr[k-1] element
                   # ==> same if you want to find the kth largest element just return arr[len(arr)-k]
 import heapq
-arr = [1,2,2,9,3,4,5]
-k = 5
-#First we'll sort the array
 
-# print(arr.sort())  # ==> you can directly used sort function
-# print(arr[k-1])
 
-# l =0 
-# h = len(arr)-1
-# while l<=h:  
-#     arr[l],arr[h] = arr[h],arr[l]
-#     l += 1
-0
-#     h -= 1
-# print(arr)
 
-print(heapq.nsmallest(k,arr)[k-1])
-print(heapq.nlargest(k,arr)[k-1])  #==> in max heap always top element will be max
+def findSmallestElement(arr1, k):
+    if k <= 0:
+        return []
+    
+    max_heaq = []
+
+    for num in arr1:
+        if len(max_heaq) < k:
+            heapq.heappush(max_heaq,-num)
+        elif -num > max_heaq[0]:
+            heapq.heappop(max_heaq)
+            heapq.heappush(max_heaq, -num)
+
+    result = [-x for x in max_heaq]
+
+    return sorted(result, reverse=True)
+
+arr1 = [1, 23, 12, 9, 30, 2, 50]
+k1 = 3
+result = findSmallestElement(arr1,k1)
+print(result)
+    
