@@ -23,3 +23,6 @@ number = int(input("Enter the number :"))
 NumberPattern(number)
 print("\n")
 ReverseNumberPattern(number)
+
+
+

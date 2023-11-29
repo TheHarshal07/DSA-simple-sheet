@@ -23,7 +23,7 @@ def findSmallestElement(arr1, k):
 
     return sorted(result, reverse=True)
 
-arr1 = [1, 23, 12, 9, 30, 2, 50]
+arr1 = [2,9,4,3,7]
 k1 = 3
 result = findSmallestElement(arr1,k1)
 print(result)

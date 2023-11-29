@@ -37,20 +37,24 @@ def occurence(arr,x):
         return -1 ,-1
     return start, end
 
-h = [1,2,3,4,5,5,5,6]
-n = 5
-print(occurence(h,n))
 
-start = -1
-end = -1
-for i in range(len(h)-1):
-    if h[i] == n:
-        start = i
-        break
-for j in range(i,len(h)-1):
-    if h[j]==n:
-        end = j
-print(i,j)       
+def Occurence(arr,b):
+    s = 0
+    e = len(arr)-1
+
+    while (s<=e and arr[s]!=b or arr[e]!=b):
+        if arr[s] != b:
+            s += 1
+        if arr[e] != b:
+            e -= 1
+    return s, e
+
+
+h = [1,2,3,4,5,5,5,5,6]
+n = 5
+print(Occurence(h,n))
+
+      
                
 
 

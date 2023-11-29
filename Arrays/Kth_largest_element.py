@@ -34,7 +34,8 @@ def findKLargestElements(arr, K):
     
     return sorted(min_heap, reverse=True)
 
-arr1 = [1,4,7,3,8,2]
-k = 2
-print(findKLargestElements(arr1,k))
+arr1 = [1,2,3,4,5]
+k = 3
+numdd = findKLargestElements(arr1,k)
+print(numdd)
 

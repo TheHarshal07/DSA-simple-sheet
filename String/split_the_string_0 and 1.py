@@ -1,4 +1,4 @@
- def maxSubStr(self,str):
+def maxSubStr(self,str):
         count1 = 0
         count2 = 0
         

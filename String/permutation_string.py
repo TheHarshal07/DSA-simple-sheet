@@ -11,8 +11,31 @@ def permute(s,answer):
                    
 answer = ""
 
+
+
+def get_permute(string, i = 0):
+    
+    words = []
+    if i == len(string):
+        print("".join(string))
+    
+    for j in range(i, len(string)):
+        
+        words = [c for c in  string]
+        
+        words[i], words[j] = words[j],words[i]
+
+        get_permute(words, i+1)
+
+
+get_permute("abc")
+
+
 a = "ABC"
 print("All permutation are : ")
 ans = permute(a,answer)
+
+# a = "ABC"
+# print(a[:0])
 
 
