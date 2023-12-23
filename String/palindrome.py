@@ -19,8 +19,6 @@ def MathChalllege(num):
     
     return str(total)+s
 
-
-
 n = 4
 print(MathChalllege(n))
 

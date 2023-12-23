@@ -10,16 +10,16 @@ def findSmallestElement(arr1, k):
     if k <= 0:
         return []
     
-    max_heaq = []
+    min_heap = []
 
     for num in arr1:
-        if len(max_heaq) < k:
-            heapq.heappush(max_heaq,-num)
-        elif -num > max_heaq[0]:
-            heapq.heappop(max_heaq)
-            heapq.heappush(max_heaq, -num)
+        if len(min_heap) < k:
+            heapq.heappush(min_heap,-num)
+        elif -num > min_heap[0]:
+            heapq.heappop(min_heap)
+            heapq.heappush(min_heap, -num)
 
-    result = [-x for x in max_heaq]
+    result = [-x for x in min_heap]
 
     return sorted(result, reverse=True)
 

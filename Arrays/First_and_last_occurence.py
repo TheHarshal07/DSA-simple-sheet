@@ -6,11 +6,12 @@
 def occurence(arr,x):
     f = -1
     l = -1
-    for i in range(len(arr)):
+    n = len(arr)
+    for i in range(n):
         if arr[i] == x:
             f = i
             break
-    for j in range(f,len(arr)):
+    for j in range(f,n):
         if arr[j] == x:
             l = j
     return f,l

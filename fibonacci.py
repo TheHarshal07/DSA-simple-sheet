@@ -9,3 +9,10 @@ for i in range(f+1):
         s.append(c)
     print(c,end=" ")
 print(s)
+
+
+for j in range(f):
+    c = a + b
+    c = b
+    b = c
+

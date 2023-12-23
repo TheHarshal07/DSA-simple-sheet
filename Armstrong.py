@@ -1,9 +1,10 @@
 user = int(input("Enter the number :"))
 result = 0
 p = user
+len_input = len(str(user))
 while user>0:
     rem = user%10
-    result = result+(rem*rem*rem)
+    result = result+(rem ** len_input)
     user = user//10
 
 if p==result:

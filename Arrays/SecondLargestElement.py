@@ -3,16 +3,17 @@
 
 a = [3,6,2,6,8,8]
 n = len(a)-1
-a.sort()
+
 # Array looks like [2,3,6,6,8,8] and thing is for sure, last element would largest element
 # in the array (n-1)
-
+#Time complexity = O(n logn)
+a.sort() 
 largest = n-1
 
 for i in range(n-2):
     if (a[i]!=largest):
         second = a[i]
-print(second)
+# print(second)
 
 
 
@@ -29,7 +30,7 @@ for i in range(n):
     if (a[i]>slargest and a[i]!=largest):
         slargest = a[i]
 
-print(slargest)
+# print(slargest)
 
 
 # Optimal solution
