@@ -25,6 +25,7 @@ for i in e:
         s.add(i)
     else:
         hashmap[i] = 1
+        hashmap.items
 
 # return ''.join(map(str,s)) --> to return the element without square brackets
         

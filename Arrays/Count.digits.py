@@ -29,13 +29,13 @@ def twoSum(arr, target, n):
     for element in arr:
         comp = target - element
         if comp in seen:
-            stack.append((comp, element))
+            return True
 
         seen.add(element)
     return ' '.join(map(str, stack))
 
-arr = [2, 7, 11, 13]
-target = 9
-n = 4
+arr = [1,2,3,5,5,5]
+target = 8
+n = 6
 print(twoSum(arr, target, n))
         

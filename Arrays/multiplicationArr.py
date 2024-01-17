@@ -17,8 +17,5 @@ def MultiplyArr(arr):
                 res *= arr[j]
         stack.append(res)
     return stack
-
-
 arr = [2,4,6,8]
-
 print(MultiplyArr(arr))

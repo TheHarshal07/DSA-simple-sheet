@@ -9,7 +9,6 @@ def CheckBST(self,root, min_value = float('-inf'), max_value = float('inf')):
         return True
     if root.data <= min_value or root.data >= max_value:
         return False
-    
     return (self.CheckBST(root.left, min_value, root.data) and self.CheckBST(root.right, root.data, max_value))
 
 
