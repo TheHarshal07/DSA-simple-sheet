@@ -47,5 +47,5 @@ def abc(arr):
     return -1
 
 
-arr2=[23,34,12]
+arr2= [1, 8, 1, 5, 3]
 print(abc(arr2))

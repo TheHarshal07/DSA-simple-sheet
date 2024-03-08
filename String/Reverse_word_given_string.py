@@ -4,7 +4,6 @@ string = harshal.sudhir.bhogal
 output = bhogal.sudhir.harshal
 
 '''
-
 def ReverseString(str):
     string = str.split(".")
     print(string)

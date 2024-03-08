@@ -11,6 +11,19 @@ string = "haah"
 print(CheckPalindrome(string))
 
 
+#optimal approch
+def is_palindrome(s,start,end):
+    if start >= end:
+        return 1
+    if s[start] != s[end]:
+        return 0
+    return is_palindrome(s,start+1, end-1)
+
+arr = "abcba"
+start = 0
+end = len(arr)-1
+print(is_palindrome(arr,start,end))
+
 def MathChalllege(num):
     total = 0
     s = 'sss'

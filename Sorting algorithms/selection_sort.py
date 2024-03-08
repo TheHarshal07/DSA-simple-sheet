@@ -13,5 +13,19 @@ def selectionSort(arr):
         arr[mini],arr[i] = arr[i],arr[mini]
     return arr
 
+
+def selectin(arr,n):
+    for i in range(n):
+        mini = i
+        for j in range(i,n):
+            if arr[j] < arr[mini]:
+                mini = j
+        arr[mini],arr[i] = arr[i],arr[mini]
+    return arr
+
+
+
+
+
 arr = [1,3,5,2,6,8]
-print(selectionSort(arr))
+print(selectin(arr, len(arr)))

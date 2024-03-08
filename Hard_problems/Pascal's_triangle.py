@@ -2,18 +2,15 @@
 
 # Type 1:
 # we have givem row and column and we have to find out the element present at that position
-
 def NCR(n,r):
     ans = 1
     for i in range(r):
         ans = ans*(n-i)
         ans = ans//(i+1)
-
     return ans
 
 
 # Type 2: In which we have to print the nth row in in pascal's triangle
-
 def generateRow(row):
     ans = 1
     ansRow = []
@@ -27,12 +24,10 @@ def generateRow(row):
 
 
 # Type 3: Important Type where we need to print the pascal's triangle
-
 def pascalsTriangle(n):
     answer = []
     for i in range(1,n+1):
         answer.append(generateRow(i))
-        
     return answer
 
 

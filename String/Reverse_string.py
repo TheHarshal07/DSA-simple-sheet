@@ -11,7 +11,6 @@ def Reverse_s(s):
         b -= 1
     return s
 
-
 st =["H","B","S"]
 print(Reverse_s(st))
 
