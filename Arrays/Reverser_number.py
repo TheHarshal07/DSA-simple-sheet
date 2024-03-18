@@ -17,6 +17,17 @@ def reverse_number(arr):
 arr = [4,3,2,1]
 print(reverse_number(arr))
 
+print("----------- sort the array -----------------")
+
+def sort(arr):
+    result = []
+    for i in range(len(arr)-1 ,-1,-1):
+        result.append(arr[i])
+
+    return result
+
+arr = [ 4,3,2,1]
+print(sort(arr))
 
 
 

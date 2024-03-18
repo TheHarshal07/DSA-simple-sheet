@@ -6,24 +6,25 @@
 
 
 
-# def hashiing(arr, n):
+def hashiing(arr, n):
     
-#     max_element = max(arr)
-#     hash = [0] * (max_element + 1)
+    max_element = max(arr)
+    hash = [0] * (max_element + 1)
+    print(hash)
 
-#     # pre-compute
-#     for i in range(n):
-#         hash[arr[i]] += 1
+    # pre-compute
+    for i in range(n):
+        hash[arr[i]] += 1
+    print(hash)
+    for i in range(max_element + 1):
+        # if hash is not 0 
+        # i.e element has occured at leas for one time
+        if hash[i] != 0:
+            print(i, "-->", hash[i])
 
-#     for i in range(max_element + 1):
-#         # if hash is not 0 
-#         # i.e element has occured at leas for one time
-#         if hash[i] != 0:
-#             print(i, "-->", hash[i])
-
-# n = 5
-# arr = [ 5,1,2,5,2,3,1,4]
-# print(hashiing(arr,n))
+n = 5
+arr = [ 5,1,2,5,2,3,1,4]
+print(hashiing(arr,n))
 
 
 # def precompute_occurrences(s):

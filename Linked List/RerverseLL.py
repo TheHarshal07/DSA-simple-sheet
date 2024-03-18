@@ -46,8 +46,10 @@ if __name__ == '__main__':
     print("\nThe reverse link list :")
     link_list.printlinklist()
 
-# here we want to create a link list
 
+
+
+# here we want to create a link list
 # class Node:
 #     def __init__(self, item) -> None:
 #         self.item = item

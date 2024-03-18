@@ -7,7 +7,7 @@ def factorial(n):
         return 1
     return n * factorial(n-1)
 
-n = 5
+n = 4
 print(factorial(n))
 
 

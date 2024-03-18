@@ -23,6 +23,18 @@ def Reverse(s, length):
         return s[0]
     return s[length-1] + Reverse(s,length-1)
 
+
+def Reverse(string,n):
+    if n < 1:
+        return ""
+    if n == 1:
+        return string[0]
+    return string[n-1] + Reverse(string,n-1)
+    
+def reverseWord(s,n):
+    ss = Reverse(s,n)
+    return ss
+
 s = "Harshal"
 n = len(s)
-print(Reverse(s,n))
+print(reverseWord(s,n))
