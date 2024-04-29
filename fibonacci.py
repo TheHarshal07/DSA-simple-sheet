@@ -1,18 +1,17 @@
-f = int(input("Enter the number :"))
+'''
+Here we are gonna genearting a fibonaaci series
+i.e --> 0 1 1 2 3 5 --( -1+1 = 0, 0+1 = 1, 1+1 = 2, 2+1 = 3 and so on)
+
+'''
+num = 5
 a,b,c=-1,1,0
-s = []
-for i in range(f+1):
+
+for i in range(num):
     c= a+b
     a = b
     b = c
-    if(i+1 == f+1):
-        s.append(c)
     print(c,end=" ")
-print(s)
 
 
-for j in range(f):
-    c = a + b
-    c = b
-    b = c
+
 

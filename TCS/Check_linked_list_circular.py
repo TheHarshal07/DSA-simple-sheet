@@ -1,0 +1,1 @@
+# Tell how to check whether a linked list is circular.

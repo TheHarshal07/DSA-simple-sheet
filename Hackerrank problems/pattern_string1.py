@@ -308,3 +308,14 @@ def ReversePattern(n):
 n = 5
 pattern(n)
 ReversePattern(n)
+
+def pattern1(n):
+    for i in range(n):
+        print(" " * i, end="")
+        for j in range(i + 1):
+            print(j if j <= i // 2 else i - j, end=" ")
+        print()
+
+# Test the function
+n = 5
+pattern1(n)

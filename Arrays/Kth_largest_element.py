@@ -1,6 +1,4 @@
 # HEre we have to find out the kth largest element in the array
-
-
 import  heapq
 
 def smallestElement(arr,k):

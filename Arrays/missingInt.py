@@ -31,6 +31,13 @@ def BetterApproch(arr,n):
         if hash[i] == 0:
             return i
         
+def Best_Arroach(arr,n):
+    stack = []
+    for i in range(1,n+1):
+        if i not in arr:
+            stack.append(i)
+    return stack
+        
 # Optimal Approcch - Sum methode
 # Time complexity - O(n)
 def OptimalSum(arr,n):
@@ -56,4 +63,4 @@ def XorAppraoch(arrn,n):
 
 arr = [1,2,3,4,5,7,8,9,10,11]
 n = 11
-print(XorAppraoch(arr,n))
+print(Best_Arroach(arr,n))

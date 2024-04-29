@@ -1,0 +1,17 @@
+⭐ - Easy 
+Question 1 - Change the case of letter                       ✅
+Question 2 - Check if the alphabet is vowel or consonent     ✅
+Question 3 - Find the most frequent alphabet                 ✅
+Question 5 - Check the string is palindrome or not           ✅
+Question 6 - Program to find the factorial of given number   ✅
+Question 7 - To check if the given year is leap year or not  ✅
+Question 8 - To print Fibonacci series                       ✅
+QUestion 9 - The task here is to sort the items based on their levels of risk in the array  ✅
+
+⭐ - Medium:
+Question 1 - Moves zeros to last                                ✅
+Question 2 - Program to print all unique elements in the array  ✅
+Question 3 - Decimal to Binary After Toggling Binary to Decimal ✅
+Question 4 - Check the linked list is circular or not                                    
+
+

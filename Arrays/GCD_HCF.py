@@ -13,9 +13,9 @@ def GCD(n1, n2):
             gcd = i
     return gcd
         
-n1 = 15
-n2 = 20
-# print(GCD(n1, n2))
+n1 = 4
+n2 = 6
+print(GCD(n1, n2))
 
 
 
@@ -46,4 +46,4 @@ def gcd(a, b):
 
 a = 20
 b = 15
-print(gcd(a,b))
+# print(gcd(a,b))

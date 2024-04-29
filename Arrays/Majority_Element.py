@@ -14,8 +14,8 @@ for i in range(N):
         if a[i]==a[j]:
             count += 1
 if (count>N/2):
-    # print(a[i])
-    pass
+    print(a[i])
+    # pass
     
 
 
