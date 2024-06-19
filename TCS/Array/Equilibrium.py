@@ -19,6 +19,5 @@ def find_equilibrium(arr):
 
     return -1
 
-
 arr = [1,2,3,3]
 print(find_equilibrium(arr))

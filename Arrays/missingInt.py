@@ -61,6 +61,6 @@ def XorAppraoch(arrn,n):
     xor2 = xor2 ^ n
     return xor1 ^ xor2
 
-arr = [1,2,3,4,5,7,8,9,10,11]
-n = 11
+arr = [2,3,4,6,5]
+n = 5
 print(Best_Arroach(arr,n))

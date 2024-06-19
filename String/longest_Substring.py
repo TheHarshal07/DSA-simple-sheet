@@ -76,4 +76,4 @@ def substring(strr):
     return strr[star:endd+1]
 
 g = "aaaabbaa"
-print(substring(g))
+print(longestSubstring(g))

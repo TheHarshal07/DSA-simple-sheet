@@ -72,6 +72,6 @@ def varietyProb(arr,n):
     return arr
 
 
-arr = [1,2,-4,-5,3,4]
+arr = [1,2,-4,-5]
 n = len(arr)
-print(varietyProb(arr,n))
+print(rerrangeElement(arr,n))
