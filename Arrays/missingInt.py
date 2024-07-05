@@ -22,16 +22,19 @@ def BruteApproch(arr,n):
 #Time Complexity - O(2n)
 # Space Complexity - O(n)
         
-def BetterApproch(arr,n):
-    hash[n+1] = {0}
-    for i in range(n-1):
+def betterApproch(arr,n):
+    hash= {}
+    for k in range(1, n+2):   # hash = {1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0}
+        hash[k] = 0
+
+    for i in range(n-1):      # hash = {1:1, 2:1, 3:1, 4:1, 5:0, 6:1, 7:1}
         hash[arr[i]] = 1
 
-    for j in range(1,n+1):
+    for j in range(1,n+1):    # it will check and return ==> 5
         if hash[i] == 0:
             return i
         
-def Best_Arroach(arr,n):
+def best_Arroach(arr,n):
     stack = []
     for i in range(1,n+1):
         if i not in arr:
@@ -61,6 +64,6 @@ def XorAppraoch(arrn,n):
     xor2 = xor2 ^ n
     return xor1 ^ xor2
 
-arr = [2,3,4,6,5]
-n = 5
-print(Best_Arroach(arr,n))
+arr = [1, 2, 4, 6, 3, 7, 8]
+n = 7
+print(betterApproch(arr,n))

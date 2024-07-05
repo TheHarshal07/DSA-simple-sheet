@@ -1,17 +1,19 @@
 #Here we need to find Reverse of the s
 def Reverse_s(s):
+    s = s[::-1]
+    string = s.split(" ")
     # here we need to set two pointer that will point to first and last element
     a = 0
-    b = len(s)-1
+    b = len(string)-1
     # stop when a will be less than b
     while a<b:
         #Here we just need to swap the element 
-        s[a],s[b] = s[b],s[a]
+        string[a],string[b] = string[b],string[a]
         a =+ 1
         b -= 1
-    return s
+    return " ".join(string)
 
-st =["H","B","S"]
+st ="Hello world"
 print(Reverse_s(st))
 
 

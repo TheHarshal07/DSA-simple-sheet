@@ -1,6 +1,6 @@
 import math
 def cum_sum_pairs(num):
-    n = len(num)
+    n = len(str(num))
     count = 0
     for i in range(1,n+1):
         for j in range(0,i):

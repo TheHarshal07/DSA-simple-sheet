@@ -3,6 +3,8 @@ Here we gonna implement Encapsulation concept
 
 '''
 
+
+# This is example of encapsulation as public member
 class encapsul:
     #constructor
     def __init__(self,name="Harry",age="25"):
