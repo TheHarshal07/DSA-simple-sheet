@@ -18,8 +18,7 @@ class Car(ABC):  # <<--- Abstract class
 
 class swift(Car):
     def milage(self): # abstract methode
-        print("The milage is 40km/hr")
-
+        print("The milage us 20km/hr")
 class Tesla(Car):
     def milage(self):
         print("The milage us 30km/hr")
@@ -30,10 +29,10 @@ class Hundai(Car):
 
 
 s = swift()
-s.milage()
+s.milegae()
 
-T = Tesla()
-T.milage()
+# T = Tesla()
+# T.milage()
 
-H = Hundai()
-H.milage()
+# H = Hundai()
+# H.milage()

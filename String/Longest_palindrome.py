@@ -5,7 +5,7 @@ def longestPalin(s):
 
     for i in range(len(s)):
         
-        # Here we gonna find palindrome for odd string by  initializing left and right pointer
+        # Here we gonna find palindrome for even string by  initializing left and right pointer
         l, r = i,i
 
         while l >= 0 and r < len(s) and s[l] == s[r]:
